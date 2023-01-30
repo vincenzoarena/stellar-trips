@@ -1,11 +1,9 @@
-
 .contacts-info-wrapper {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  /* width: 80%; */
   height: auto;
   margin-top: 10.25em 2em 0 2em;
   padding: auto;
@@ -23,7 +21,8 @@
   align-items: center;
 }
 
-.contact, .company-info {
+.contact,
+.company-info {
   margin: 2em;
   display: flex;
   flex-direction: column;
@@ -31,12 +30,14 @@
   align-items: center;
 }
 
-.contact-name, .company-info-name {
-  color: #FFFFFF;
+.contact-name,
+.company-info-name {
+  color: #ffffff;
   font-family: Imported-Bold;
 }
 
-.contacts-links-wrapper, .company-infos-links-wrapper {
+.contacts-links-wrapper,
+.company-infos-links-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -60,7 +61,7 @@
   height: 12em;
 }
 
-.contact-form{
+.contact-form {
   width: 25em;
   height: auto;
   padding: 2em;

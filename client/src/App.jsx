@@ -5,7 +5,6 @@ import { SimpleSlider } from "./components/SimpleSlider/index.jsx";
 
 import "./App.css";
 import Header from "./components/header/Header";
-//import Home from "./pages/home/Home";
 import About from "./components/about/About";
 import Contacts from "./components/contacts/Contacts.jsx";
 import Planet from "./components/planetDetail/Planet.jsx";

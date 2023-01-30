@@ -1,5 +1,4 @@
 import React from "react";
-//import { Route, Routes, Navigate } from "react-router-dom";
 import "./contacts.css";
 import { companyInfos } from "../../assets/JSON/companyInfos.js";
 import { contacts } from "../../assets/JSON/contactsInfo.js";
@@ -10,11 +9,9 @@ import { FaPhoneAlt } from "@react-icons/all-files/fa/FaPhoneAlt";
 import { BsFillChatFill } from "@react-icons/all-files/bs/BsFillChatFill";
 import { ContactUs } from "../contactForm/ContactUs.jsx";
 
-
 const Contacts = () => {
   return (
     <>
-
       <div className="contacts-info-wrapper">
         <div className={`contacts-wrapper id${companyInfos.id}`}>
           {companyInfos.map((companyInfo, k) => (
@@ -22,9 +19,23 @@ const Contacts = () => {
               <img src={companyInfo.image} alt="" key={k} className="art" />
               <h2 className="company-info-name">{companyInfo.name}</h2>
               <div className="company-infos-links-wrapper">
-              <a href={`mailto:${companyInfo.email}`}><MdEmail className="contacts-icon" /></a>
-              <a href={companyInfo.telephone} target="_blank" rel="noopener noreferrer"><FaPhoneAlt className="contacts-icon" /></a>
-              <a href={companyInfo.chat} target="_blank" rel="noopener noreferrer"><BsFillChatFill className="contacts-icon" /></a>
+                <a href={`mailto:${companyInfo.email}`}>
+                  <MdEmail className="contacts-icon" />
+                </a>
+                <a
+                  href={companyInfo.telephone}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaPhoneAlt className="contacts-icon" />
+                </a>
+                <a
+                  href={companyInfo.chat}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <BsFillChatFill className="contacts-icon" />
+                </a>
               </div>
             </div>
           ))}
@@ -35,9 +46,23 @@ const Contacts = () => {
               <img src={contact.image} alt="" key={k} className="art" />
               <h2 className="contact-name">{contact.name}</h2>
               <div className="contacts-links-wrapper">
-              <a href={`mailto:${contact.email}`}><MdEmail className="contacts-icon" /></a>
-              <a href={contact.linkedin} target="_blank" rel="noopener noreferrer"><FaLinkedin className="contacts-icon" /></a>
-              <a href={contact.github} target="_blank" rel="noopener noreferrer"><ImGithub className="contacts-icon" /></a>
+                <a href={`mailto:${contact.email}`}>
+                  <MdEmail className="contacts-icon" />
+                </a>
+                <a
+                  href={contact.linkedin}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaLinkedin className="contacts-icon" />
+                </a>
+                <a
+                  href={contact.github}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <ImGithub className="contacts-icon" />
+                </a>
               </div>
             </div>
           ))}

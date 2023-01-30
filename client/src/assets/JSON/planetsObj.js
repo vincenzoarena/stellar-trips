@@ -62,14 +62,6 @@ const planets = [
         img: "",
         text: "“Gluttony” is a first class package, which provides you with a Penthouse Suite and a view over the Facility and the planet. Included is a private Spa experience and a 24h access to the “Roman Baths”. Once a week there is a scientific surface trip organized by Stellar Trips that you can join in a passenger-cabin. Droid-Service and a underground ticket for all Venus exclusive events are included.",
       },
-      { img: "", text: "" },
-      { img: "", text: "" },
-      { img: "", text: "" },
-      { img: "", text: "" },
-      { img: "", text: "" },
-      { img: "", text: "" },
-      { img: "", text: "" },
-      { img: "", text: "" },
       {
         img: "/assets/planets/02-venus/venus-003.jpg",
         text: "",
@@ -102,9 +94,7 @@ const planets = [
       },
       {
         text: "After the climatic disaster that led to the melting of the polar ice caps and rising sea levels, much of the Earth's crust has been submerged, along with much of the land inhabited by man.",
-        img: [
-          "/assets/planets/03-earth/earth-002.jpg",
-        ],
+        img: ["/assets/planets/03-earth/earth-002.jpg"],
       },
       {
         img: "",
@@ -126,8 +116,6 @@ const planets = [
       { img: "", text: "Under the Sea" },
       { img: "", text: "From the fire to the Stars" },
       { img: "", text: "Dancing in the Moonlight" },
-      { img: "", text: "" },
-      { img: "", text: "" },
       {
         img: "/assets/planets/03-earth/earth-003.png",
         text: "",
@@ -268,8 +256,6 @@ const planets = [
         text: "We offer day trips to Ganymede with the possibility to visit the largest Cryonic-Facility of the solar-System. Here you can take a time-out or escape difficulties you're discovered in your life. If you broke up with a loved one, maybe time can heal it, take a couple of hundred years to get over it in our Cryo-Chambers, we recommend you the morpheus package with included maintenance and insurance. We keep you save even when a meteor hits, if something is left of you - it get's transferred to a droid.",
       },
       { img: "", text: "Happy freezing." },
-      { img: "", text: "" },
-      { img: "", text: "" },
     ],
     package: [
       {
@@ -314,15 +300,15 @@ const planets = [
       },
       {
         img: "",
-        text: "Package 1: The Bellagio – Luxury Hotel – located on the Dream Chaser Strip",
+        text: "Package 1: The Bellagio - Luxury Hotel - located on the Dream Chaser Strip",
       },
       {
         img: "",
-        text: "Package 2: Palazzo Parigi - Mid-Range Hotel – located close to the Dream Chaser Strip",
+        text: "Package 2: Palazzo Parigi - Mid-Range Hotel - located close to the Dream Chaser Strip",
       },
       {
         img: "",
-        text: "Package 3: The Maple Hotel – Budget Hotel – shuttle service to the Dream Chaser Strip",
+        text: "Package 3: The Maple Hotel - Budget Hotel - shuttle service to the Dream Chaser Strip",
       },
       {
         img: "/assets/planets/06-saturn/saturn-004.jpg",
@@ -343,7 +329,7 @@ const planets = [
       {
         name: "The Bellagio",
         price: 3000,
-        description: "Luxury Hotel – located on the Dream Chaser Strip",
+        description: "Luxury Hotel - located on the Dream Chaser Strip",
       },
     ],
   },
@@ -356,9 +342,7 @@ const planets = [
       },
       {
         text: "Historically and astronomically, the planet was only discovered in 1783-British astronomer William Herschel noted that, what had previously been regarded as one of the stars in the constellation Taurus, was now a real planet to which, at first, he gave the name Georgian Planet in honor of King George III.",
-        img: [
-          "/assets/planets/07-uranus/uranus-002.jpg",
-        ],
+        img: ["/assets/planets/07-uranus/uranus-002.jpg"],
       },
       {
         img: "",
@@ -388,8 +372,6 @@ const planets = [
       { img: "", text: "- Healthy Ice" },
       { img: "", text: "- Winter Sports" },
       { img: "", text: "- Frozen Star" },
-      { img: "", text: "" },
-      { img: "", text: "" },
       {
         img: "/assets/planets/07-uranus/uranus-003.jpg",
         text: "",
@@ -441,14 +423,6 @@ const planets = [
       {
         img: "",
         text: "- Last Research - 3000 - Luxury Hotels - Inside the habitats beneath the planet's surface.",
-      },
-      { img: "", text: "" },
-      { img: "", text: "" },
-      { img: "", text: "" },
-      { img: "", text: "" },
-      {
-        img: "",
-        text: "",
       },
     ],
     package: [

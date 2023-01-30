@@ -39,10 +39,6 @@ export const SimpleSlider = () => {
       {
         breakpoint: 400,
         settings: "unslick",
-        // {
-        //   slidesToShow: 1,
-        //   slidesToScroll: 1,
-        // },
       },
     ],
   };

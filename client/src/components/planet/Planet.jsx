@@ -2,9 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./Planet.css";
 
-// https://api.nasa.gov/planetary/apod?api_key=byb2SVHItXqFMSKowrZNpHv8Ufy2x2MWAbdvWtSe
 
-//byb2SVHItXqFMSKowrZNpHv8Ufy2x2MWAbdvWtSe
 
 export const Planet = ({ planet }) => {
   return (

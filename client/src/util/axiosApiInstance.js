@@ -8,7 +8,7 @@ axiosApiInstance.defaults.withCredentials = true;
 //intercepts responses.
 axiosApiInstance.interceptors.response.use(
   (config) => {
-    console.log("A respones has been received");
+    console.log("A response has been received");
     return config;
   },
   (error) => {

@@ -34,7 +34,6 @@
 
 .dropdown-body {
   padding: 5px;
-  /* border-top: 1px solid #E5E8EC; */
   display: none;
   z-index: 999999;
   border-radius: 0.6rem;
@@ -43,7 +42,6 @@
 .dropdown-body.open {
   display: block;
   position: absolute; 
-  /* z-index: 9999; */
   background-color: transparent;
   backdrop-filter: blur(0.5rem);
   border-radius: 0.6rem;
@@ -51,7 +49,6 @@
 
 .dropdown-item {
   padding: 10px;
-  /* z-index: 999999; */
   background-color: transparent;
   width: 300px;
   color: white;
@@ -85,8 +82,6 @@
 }
 
 .dropdown-proceed {
-  /* position: relative; 
-  bottom: 2rem; */
   margin-left: 2rem;
   height: 50%;
 }
