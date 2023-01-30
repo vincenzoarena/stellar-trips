@@ -4,14 +4,14 @@
 
 ---
 
-![Home](./app-screenshots/stellar-trips-01-home.png)
+![Home Page](./app-screenshots/stellar-trips-01-home.png)
 ![Loading Animation](./app-screenshots/stellar-trips-02-loading-animation.png)
 ![Planet Page](./app-screenshots/stellar-trips-03-planet-page.png)
 ![About Page](./app-screenshots/stellar-trips-04-about-page.png)
 ![Contacts Page](./app-screenshots/stellar-trips-05-contacts-page.png)
 ![Register Page](./app-screenshots/stellar-trips-06-register-page.png)
 ![Login Page](./app-screenshots/stellar-trips-07-login-page.png)
-![Cart](./app-screenshots/stellar-trips-08-cart.png)
+![Cart Page](./app-screenshots/stellar-trips-08-cart.png)
 
 ### About Project
 
