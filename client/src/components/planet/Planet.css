@@ -1,0 +1,93 @@
+body {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  color: 000;
+}
+
+.mercury {
+  background: url("https://www.solarsystemscope.com/images/textures/full/2k_makemake_fictional.jpg")
+    repeat-x !important;
+  box-sizing: content-box;
+}
+.venus {
+  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/332937/venus2.jpg")
+    repeat-x !important;
+}
+.earth {
+  background: url("https://w0.peakpx.com/wallpaper/394/548/HD-wallpaper-earth-map-ecology-world-map-earth-world-map-concept-creative-world-maps-art-ecology-concept-world-map.jpg")
+    repeat-x !important;
+}
+.mars {
+  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/mars_texture.jpg")
+    repeat-x !important;
+}
+.jupiter {
+  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/332937/jupiter.jpg")
+    repeat-x !important;
+}
+.saturn {
+  background: url("https://www.solarsystemscope.com/images/textures/full/2k_saturn.jpg")
+    repeat-x !important;
+}
+.uranus {
+  background: url("https://img00.deviantart.net/957c/i/2017/165/4/9/uranus_texture_map_by_jcpag2010-db7yjwb.png")
+    repeat-x !important;
+}
+.neptune {
+  background: url("https://img00.deviantart.net/f068/i/2017/165/b/c/neptune_texture_map_by_jcpag2010-dbcjcv5.png")
+    repeat-x !important;
+}
+.pluto {
+  background: url("https://pre00.deviantart.net/4677/th/pre/f/2015/314/4/e/pluto_map__2015_nov_10__by_snowfall_the_cat-d918tlb.png")
+    repeat-x !important;
+}
+
+.slide > h1 {
+  font-size: 3rem;
+  text-align: center;
+  margin: 15rem 0;
+}
+
+.slide {
+  width: 30rem;
+  margin: 3.2rem auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.planet {
+  overflow: hidden;
+  border-radius: 100%;
+  width: 28rem;
+  height: 28rem;
+  position: relative;
+  margin: 10rem auto;
+  box-shadow: 0rem 0rem 10rem 3rem rgba(174, 172, 172, 0.492);
+  opacity: 1;
+}
+
+.planet:hover {
+  opacity: 1;
+  transform: scale(1.3);
+  transition: 0.7s ease-in-out;
+}
+.bg {
+  width: 150rem;
+  height: 100%;
+  margin: auto auto;
+  background-size: cover;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  animation: planet 60s 3.9s infinite linear;
+}
+
+@keyframes planet {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(-600px, 0, 0);
+  }
+}

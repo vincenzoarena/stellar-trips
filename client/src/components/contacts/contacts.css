@@ -1,0 +1,67 @@
+
+.contacts-info-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  /* width: 80%; */
+  height: auto;
+  margin-top: 10.25em 2em 0 2em;
+  padding: auto;
+  backdrop-filter: blur(0.3rem);
+  box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
+  border: 1px solid #ffffff;
+  border-radius: 0.62rem;
+}
+
+.contacts-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact, .company-info {
+  margin: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-name, .company-info-name {
+  color: #FFFFFF;
+  font-family: Imported-Bold;
+}
+
+.contacts-links-wrapper, .company-infos-links-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.contacts-icon {
+  color: var(--color-light-1);
+  height: 2.5em;
+  width: 2.5em;
+  display: flex;
+  text-align: center;
+  margin: 0 1.5em;
+}
+
+.contacts-icon:hover {
+  color: #1db702;
+}
+
+.art {
+  height: 12em;
+}
+
+.contact-form{
+  width: 25em;
+  height: auto;
+  padding: 2em;
+}

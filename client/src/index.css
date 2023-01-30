@@ -1,0 +1,22 @@
+* {
+  --color-light-1: #E1F2D5;
+  --color-dark-5: #2B2B2B;
+  --color-dark-4: #303030;
+  --color-dark-3: #878787;
+  --color-dark-2: #D2D2D2;
+  --color-dark-1: #919191;
+}
+
+body {
+  background: url("../public/assets/Images/fondo_de_pantalla.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  text-transform: uppercase;
+  width: 98vw;
+  height: 95vh;
+  margin: 0;
+  color: var(--color-light-1);
+  /* I am just playing here! */
+}

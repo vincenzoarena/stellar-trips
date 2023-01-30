@@ -1,0 +1,169 @@
+.barContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.brandBox {
+  display: inline-flex;
+}
+
+.brand {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+
+.brandName {
+  font-size: 3rem;
+  line-height: 2rem;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.6rem;
+  color: var(--color-light-1);
+}
+a:visited {
+  color: var(--color-light-1);
+}
+a:hover {
+  color: #1db702;
+}
+
+.logo {
+  height: 5rem;
+}
+
+body {
+  margin: 0;
+}
+
+/* header */
+
+.header {
+  backdrop-filter: blur(0.3rem);
+  box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid #ffffff;
+  margin-bottom: 2rem;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+  font-family: Imported-Bold;
+}
+
+.header ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+}
+
+.header li a {
+  display: block;
+  padding: 5px;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.header .logo {
+  display: block;
+  float: left;
+  font-size: 2em;
+  text-decoration: none;
+}
+
+/* menu */
+
+.header .menu {
+  clear: both;
+  max-height: 0;
+  transition: max-height 0.2s ease-out;
+}
+
+/* menu icon */
+
+.header .menu-icon {
+  cursor: pointer;
+  float: right;
+  padding: 28px 20px;
+  position: relative;
+  user-select: none;
+}
+
+.header .menu-icon .nav-icon {
+  background: var(--color-light-1);
+  display: block;
+  height: 2px;
+  position: relative;
+  transition: background 0.2s ease-out;
+  width: 18px;
+}
+
+.header .menu-icon .nav-icon:before,
+.header .menu-icon .nav-icon:after {
+  background: var(--color-light-1);
+  content: "";
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all 0.2s ease-out;
+  width: 100%;
+}
+
+.header .menu-icon .nav-icon:before {
+  top: 5px;
+}
+
+.header .menu-icon .nav-icon:after {
+  top: -5px;
+}
+
+/* menu btn */
+
+.header .menu-btn {
+  display: none;
+}
+
+.header .menu-btn:checked ~ .menu {
+  max-height: 240px;
+}
+
+.header .menu-btn:checked ~ .menu-icon .nav-icon {
+  background: transparent;
+}
+
+.header .menu-btn:checked ~ .menu-icon .nav-icon:before {
+  transform: rotate(-45deg);
+  top: 0;
+}
+
+.header .menu-btn:checked ~ .menu-icon .nav-icon:after {
+  transform: rotate(45deg);
+  top: 0;
+}
+
+/* 52.5em = 840px @ 16pt font */
+/* 71.75em = 1148 @ 16pt font */
+
+@media (min-width: 52.5em) {
+  .header li {
+    float: left;
+  }
+  .header li a {
+    padding: 20px 30px;
+  }
+  .header .menu {
+    clear: none;
+    float: right;
+    max-height: 100%;
+  }
+  .header .menu-icon {
+    display: none;
+  }
+}

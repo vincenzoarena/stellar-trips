@@ -1,1 +1,1 @@
-# stellar-trips
+# full-stack-app

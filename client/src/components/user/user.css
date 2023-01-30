@@ -1,0 +1,21 @@
+
+.user-packages-box{
+    margin: 8em 2em 0 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.package-booking-box {
+    width: 95%;
+    height: 80rem;
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+    backdrop-filter: blur(0.3rem);
+    border: 1px solid #FFFFFF;
+    border-radius: 0.62rem;
+    padding: 2em;
+    margin: 0;
+}

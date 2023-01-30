@@ -1,0 +1,33 @@
+.about-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* margin: 10.25em; */
+  /* height: calc(100vh - 30.625em - 10.409em); */
+  backdrop-filter: blur(0.3rem);
+  box-shadow: 1px 1px 4px 0 rgb(0 0 0 / 10%);
+  border: 1px solid #ffffff;
+  border-radius: 0.62rem;
+  padding: auto;
+
+  margin-left: 25px;
+}
+
+.about-title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+}
+
+.about-title-container, .about-info {
+  width: 95%;
+  height: auto;
+}
+
+.about-title {
+  color: #ffffff;
+  margin: 1em;
+  font-family: Imported-Bold;
+}

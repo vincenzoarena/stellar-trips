@@ -1,0 +1,30 @@
+.founders-story-name {
+    color: #FFFFFF;
+    font-family: Imported-Bold;
+}
+
+.founders-story-art {
+    height: 6em;
+    margin-right: 3em;
+}
+
+.founders-story-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: flex-start;
+    margin-bottom: 2em;
+}
+
+.founders-story-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.founders-story-wrapper {
+    margin: 2em;
+}
+
+.founders-story-origin {
+    margin-bottom: 2em;
+}
